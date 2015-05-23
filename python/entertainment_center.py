@@ -1,6 +1,11 @@
 import fresh_tomatoes
 import media
 
+# As I imported media.py I can create instances of Movie class.
+# I'm creating 4 instances, each for one of my favorite's movies.
+# As defined in media.py class Movie has 4 instance variables:
+# name, description,url to poster, url to trailer
+
 interstellar = media.Movie("interstellar",
 						   "A story about cosmsos, love and time",
 						   "http://upload.wikimedia.org/wikipedia/en/thumb/b/bc/I"+
@@ -25,6 +30,9 @@ bourne_identity = media.Movie("Bourne identity",
 							  "http://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Bour"
 							  "neIdentityfilm.jpg/220px-BourneIdentityfilm.jpg",
 							  "http://www.youtube.com/watch?v=FpKaB5dvQ4g")
+
+# Now I can make list of my instances and pass it to open_movies_page() function,
+# defined in fresh_tomatoes.py, where index.html will be parsed and finally maked.
 
 movies = [interstellar,special_attention,bridge_to_terabithia,bourne_identity]
 
