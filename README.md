@@ -2,7 +2,7 @@
 
 Repo for my first project on udacity fullstack nanodegree
 
-I've made whole site. You should check only about me section.
+I've made whole site. Using skel framework http://getskel.com/, free template from http://html5up.net/ with combine with some bootstrap. 
 
 To run project:
 1. Go to "python" folder.
